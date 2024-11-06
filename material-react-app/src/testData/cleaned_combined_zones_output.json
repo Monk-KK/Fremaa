@@ -1,0 +1,431 @@
+{
+  "zones": [
+    {
+      "zone": "Zone A",
+      "lots": [
+        {
+          "lot": "Lot 1 (Dibrugarh)",
+          "progressDetails": [
+            {
+              "item": " Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 93200.0,
+              "currentProgress": 0.0,
+              "totalProgress": 93200.0,
+              "physicalProgressPercentage": 12.25831908457188,
+              "financialProgressPercentage": 11.645403130343286
+            },
+            {
+              "item": "Item No. 2 (Supply of Geo-textile fabric sheet, 300 GSM)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 0.0,
+              "currentProgress": 0.0,
+              "totalProgress": 0.0,
+              "physicalProgressPercentage": 0.0,
+              "financialProgressPercentage": 0.0
+            },
+            {
+              "item": "Item No. 3 (Supply of sewing thread)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 0.0,
+              "currentProgress": 0.0,
+              "totalProgress": 0.0,
+              "physicalProgressPercentage": 0.0,
+              "financialProgressPercentage": 0.0
+            }
+          ]
+        },
+        {
+          "lot": "Lot 1 (Tinsukia)",
+          "progressDetails": [
+            {
+              "item": " Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 47100.0,
+              "currentProgress": 0.0,
+              "totalProgress": 47100.0,
+              "physicalProgressPercentage": 6.27748900439824,
+              "financialProgressPercentage": 5.963614554178328
+            },
+            {
+              "item": "Item No. 2 (Supply of Geo-textile fabric sheet, 300 GSM)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 4500.0,
+              "currentProgress": 0.0,
+              "totalProgress": 4500.0,
+              "physicalProgressPercentage": 1.465320742429176,
+              "financialProgressPercentage": 0.058612829697167045
+            },
+            {
+              "item": "Item No. 3 (Supply of sewing thread)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 2808000.0,
+              "currentProgress": 0.0,
+              "totalProgress": 2808000.0,
+              "physicalProgressPercentage": 34.02275453454982,
+              "financialProgressPercentage": 0.3402275453454982
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zone": "Zone B",
+      "lots": [
+        {
+          "lot": "Lot 1",
+          "progressDetails": [
+            {
+              "item": " Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 588300.0,
+              "currentProgress": 0.0,
+              "totalProgress": 588300.0,
+              "physicalProgressPercentage": 22.855477855477854,
+              "financialProgressPercentage": 21.712703962703962
+            },
+            {
+              "item": "Item No. 2 (Supply of Geo-textile fabric sheet, 300 GSM)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 36560.0,
+              "currentProgress": 0.0,
+              "totalProgress": 36560.0,
+              "physicalProgressPercentage": 21.13294797687861,
+              "financialProgressPercentage": 0.8453179190751445
+            },
+            {
+              "item": "Item No. 3 (Supply of sewing thread)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 2274345.0,
+              "currentProgress": 0.0,
+              "totalProgress": 2274345.0,
+              "physicalProgressPercentage": 8.032581055308329,
+              "financialProgressPercentage": 0.08032581055308328
+            }
+          ]
+        },
+        {
+          "lot": "Lot 2",
+          "progressDetails": [
+            {
+              "item": " Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 565800.0,
+              "currentProgress": 0.0,
+              "totalProgress": 565800.0,
+              "physicalProgressPercentage": 22.787869024125015,
+              "financialProgressPercentage": 21.648475572918763
+            },
+            {
+              "item": "Item No. 2 (Supply of Geo-textile fabric sheet, 300 GSM)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 18280.0,
+              "currentProgress": 0.0,
+              "totalProgress": 18280.0,
+              "physicalProgressPercentage": 21.813842482100238,
+              "financialProgressPercentage": 0.8725536992840095
+            },
+            {
+              "item": "Item No. 3 (Supply of sewing thread)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 2275830.0,
+              "currentProgress": 0.0,
+              "totalProgress": 2275830.0,
+              "physicalProgressPercentage": 8.332741405760858,
+              "financialProgressPercentage": 0.08332741405760859
+            }
+          ]
+        },
+        {
+          "lot": "Lot 3",
+          "progressDetails": [
+            {
+              "item": " Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 450300.0,
+              "currentProgress": 0.0,
+              "totalProgress": 450300.0,
+              "physicalProgressPercentage": 24.6766768960982,
+              "financialProgressPercentage": 23.442843051293288
+            },
+            {
+              "item": "Item No. 2 (Supply of Geo-textile fabric sheet, 300 GSM)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 18280.0,
+              "currentProgress": 0.0,
+              "totalProgress": 18280.0,
+              "physicalProgressPercentage": 20.516273849607185,
+              "financialProgressPercentage": 0.8206509539842874
+            },
+            {
+              "item": "Item No. 3 (Supply of sewing thread)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 2275830.0,
+              "currentProgress": 0.0,
+              "totalProgress": 2275830.0,
+              "physicalProgressPercentage": 11.33788011637639,
+              "financialProgressPercentage": 0.11337880116376389
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zone": "Zone C",
+      "lots": [
+        {
+          "lot": "Lot 1",
+          "progressDetails": [
+            {
+              "item": " Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 731600.0,
+              "currentProgress": 0.0,
+              "totalProgress": 731600.0,
+              "physicalProgressPercentage": 39.06450234942332,
+              "financialProgressPercentage": 37.11127723195215
+            },
+            {
+              "item": "Item No. 2 (Supply of Geo-textile fabric sheet, 300 GSM)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 48140.0,
+              "currentProgress": 0.0,
+              "totalProgress": 48140.0,
+              "physicalProgressPercentage": 53.667781493868446,
+              "financialProgressPercentage": 2.146711259754738
+            },
+            {
+              "item": "Item No. 3 (Supply of sewing thread)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 15000000.0,
+              "currentProgress": 0.0,
+              "totalProgress": 15000000.0,
+              "physicalProgressPercentage": 72.81270630266786,
+              "financialProgressPercentage": 0.7281270630266786
+            }
+          ]
+        },
+        {
+          "lot": "Lot 2",
+          "progressDetails": [
+            {
+              "item": " Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 329000.0,
+              "currentProgress": 54500.0,
+              "totalProgress": 383500.0,
+              "physicalProgressPercentage": 20.997590889180902,
+              "financialProgressPercentage": 19.947711344721856
+            },
+            {
+              "item": "Item No. 2 (Supply of Geo-textile fabric sheet, 300 GSM)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 23200.0,
+              "currentProgress": 0.0,
+              "totalProgress": 23200.0,
+              "physicalProgressPercentage": 29.219143576826195,
+              "financialProgressPercentage": 1.1687657430730478
+            },
+            {
+              "item": "Item No. 3 (Supply of sewing thread)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 0.0,
+              "currentProgress": 0.0,
+              "totalProgress": 0.0,
+              "physicalProgressPercentage": 0.0,
+              "financialProgressPercentage": 0.0
+            }
+          ]
+        },
+        {
+          "lot": "Lot 3",
+          "progressDetails": [
+            {
+              "item": " Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 568600.0,
+              "currentProgress": 80500.0,
+              "totalProgress": 649100.0,
+              "physicalProgressPercentage": 50.541150821459155,
+              "financialProgressPercentage": 48.01409328038619
+            },
+            {
+              "item": "Item No. 2 (Supply of Geo-textile fabric sheet, 300 GSM)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 23200.0,
+              "currentProgress": 0.0,
+              "totalProgress": 23200.0,
+              "physicalProgressPercentage": 91.699604743083,
+              "financialProgressPercentage": 3.6679841897233203
+            },
+            {
+              "item": "Item No. 3 (Supply of sewing thread)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 2060400.0,
+              "currentProgress": 0.0,
+              "totalProgress": 2060400.0,
+              "physicalProgressPercentage": 14.584527829096855,
+              "financialProgressPercentage": 0.14584527829096855
+            }
+          ]
+        },
+        {
+          "lot": "Lot 4",
+          "progressDetails": [
+            {
+              "item": " Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 0.0,
+              "currentProgress": 0.0,
+              "totalProgress": 0.0,
+              "physicalProgressPercentage": 0.0,
+              "financialProgressPercentage": 0.0
+            },
+            {
+              "item": "Item No. 2 (Supply of Geo-textile fabric sheet, 300 GSM)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 0.0,
+              "currentProgress": 0.0,
+              "totalProgress": 0.0,
+              "physicalProgressPercentage": 0.0,
+              "financialProgressPercentage": 0.0
+            },
+            {
+              "item": "Item No. 3 (Supply of sewing thread)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 0.0,
+              "currentProgress": 0.0,
+              "totalProgress": 0.0,
+              "physicalProgressPercentage": 0.0,
+              "financialProgressPercentage": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zone": "Zone D",
+      "lots": [
+        {
+          "lot": "Lot 1",
+          "progressDetails": [
+            {
+              "item": " Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 733400.0,
+              "currentProgress": 0.0,
+              "totalProgress": 733400.0,
+              "physicalProgressPercentage": 30.031530240366898,
+              "financialProgressPercentage": 29.65648840364042
+            },
+            {
+              "item": "Item No. 3 (Supply of sewing thread)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 2258235.0,
+              "currentProgress": 0.0,
+              "totalProgress": 2258235.0,
+              "physicalProgressPercentage": 8.406457184762742,
+              "financialProgressPercentage": 0.10498210106849995
+            }
+          ]
+        },
+        {
+          "lot": "Lot 2",
+          "progressDetails": [
+            {
+              "item": " Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 601500.0,
+              "currentProgress": 0.0,
+              "totalProgress": 601500.0,
+              "physicalProgressPercentage": 26.436074363820154,
+              "financialProgressPercentage": 25.114270645629144
+            },
+            {
+              "item": "Item No. 2 (Supply of Geo-textile fabric sheet, 300 GSM)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 18280.0,
+              "currentProgress": 0.0,
+              "totalProgress": 18280.0,
+              "physicalProgressPercentage": 14.4391785150079,
+              "financialProgressPercentage": 0.577567140600316
+            },
+            {
+              "item": "Item No. 3 (Supply of sewing thread)",
+              "itemType": null,
+              "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+              "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+              "previousProgress": 2270430.0,
+              "currentProgress": 0.0,
+              "totalProgress": 2270430.0,
+              "physicalProgressPercentage": 9.071451117335176,
+              "financialProgressPercentage": 0.09071451117335176
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

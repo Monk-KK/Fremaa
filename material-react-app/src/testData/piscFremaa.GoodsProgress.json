@@ -1,0 +1,204 @@
+[{
+  "_id": {
+    "$oid": "670cba68e8385106502f908c"
+  },
+  "zone": "Zone A",
+  "lot": "Lot 1",
+  "item": "Geo-Textile Bags",
+  "quantity": 760300,
+  "unit": "No.s",
+  "unitPrice": 145.76,
+  "contractValue": 110822848.6,
+  "financialUtilization": 0,
+  "remarks": "NA",
+  "overallPercentageCompleted": 0,
+  "progressDetails": [
+    {
+      "progressDetailsStart": {
+        "$date": "2024-06-15T00:00:00.000Z"
+      },
+      "progressDetailsEnd": {
+        "$date": "2024-06-30T00:00:00.000Z"
+      },
+      "previousProgress": 0,
+      "currentProgress": 0,
+      "totalProgress": 0,
+      "physicalProgressPercentage": 0,
+      "financialProgressPercentage": 0,
+      "_id": {
+        "$oid": "670cba68e8385106502f908d"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670cbdcce8385106502f90bb"
+  },
+  "zone": "Zone A",
+  "lot": "Lot 1",
+  "item": "Geo-Textile Fabric",
+  "quantity": 311500,
+  "unit": "sqm",
+  "unitPrice": 73.21,
+  "contractValue": 22804292,
+  "financialUtilization": 0,
+  "remarks": "NA",
+  "overallPercentageCompleted": 0,
+  "progressDetails": [
+    {
+      "progressDetailsStart": {
+        "$date": "2024-06-15T00:00:00.000Z"
+      },
+      "progressDetailsEnd": {
+        "$date": "2024-06-30T00:00:00.000Z"
+      },
+      "previousProgress": 0,
+      "currentProgress": 0,
+      "totalProgress": 0,
+      "physicalProgressPercentage": 0,
+      "financialProgressPercentage": 0,
+      "_id": {
+        "$oid": "670cbdcce8385106502f90bc"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670cbf20e8385106502f90f5"
+  },
+  "zone": "Zone A",
+  "lot": "Lot 1",
+  "item": "Sewing Threads",
+  "quantity": 8363300,
+  "unit": "Rm",
+  "unitPrice": 0.07,
+  "contractValue": 551977.8,
+  "financialUtilization": 0,
+  "remarks": "NA",
+  "overallPercentageCompleted": 0,
+  "progressDetails": [
+    {
+      "progressDetailsStart": {
+        "$date": "2024-06-15T00:00:00.000Z"
+      },
+      "progressDetailsEnd": {
+        "$date": "2024-06-30T00:00:00.000Z"
+      },
+      "previousProgress": 0,
+      "currentProgress": 0,
+      "totalProgress": 0,
+      "physicalProgressPercentage": 0,
+      "financialProgressPercentage": 0,
+      "_id": {
+        "$oid": "670cbf20e8385106502f90f6"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670cbfc9e8385106502f9104"
+  },
+  "zone": "Zone A",
+  "lot": "Lot 1",
+  "item": "Geo-Textile Bags",
+  "quantity": 750300,
+  "unit": "No.s",
+  "unitPrice": 145.76,
+  "contractValue": 109365228.6,
+  "financialUtilization": 5424984.21,
+  "remarks": "NA",
+  "overallPercentageCompleted": 4,
+  "progressDetails": [
+    {
+      "progressDetailsStart": {
+        "$date": "2024-06-15T00:00:00.000Z"
+      },
+      "progressDetailsEnd": {
+        "$date": "2024-06-30T00:00:00.000Z"
+      },
+      "previousProgress": 0,
+      "currentProgress": 31900,
+      "totalProgress": 31900,
+      "physicalProgressPercentage": 4.25,
+      "financialProgressPercentage": 4.04,
+      "_id": {
+        "$oid": "670cbfc9e8385106502f9105"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670cc0c4e8385106502f911d"
+  },
+  "zone": "Zone A",
+  "lot": "Lot 1",
+  "item": "Geo-Textile Fabric",
+  "quantity": 307100,
+  "unit": "sqm",
+  "unitPrice": 73.21,
+  "contractValue": 22482176.8,
+  "financialUtilization": 5424984.21,
+  "remarks": "NA",
+  "overallPercentageCompleted": 4,
+  "progressDetails": [
+    {
+      "progressDetailsStart": {
+        "$date": "2024-06-15T00:00:00.000Z"
+      },
+      "progressDetailsEnd": {
+        "$date": "2024-06-30T00:00:00.000Z"
+      },
+      "previousProgress": 0,
+      "currentProgress": 4500,
+      "totalProgress": 4500,
+      "physicalProgressPercentage": 1.47,
+      "financialProgressPercentage": 0.06,
+      "_id": {
+        "$oid": "670cc0c4e8385106502f911e"
+      }
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670cc47d2c7d3aeb69b7a272"
+  },
+  "zone": "Zone A",
+  "lot": "Lot 1",
+  "item": "Sewing Threads",
+  "quantity": 8253300,
+  "unit": "Rm",
+  "unitPrice": 0.07,
+  "contractValue": 544717.8,
+  "financialUtilization": 0,
+  "remarks": "NA",
+  "overallPercentageCompleted": 4,
+  "progressDetails": [
+    {
+      "progressDetailsStart": {
+        "$date": "2024-06-15T00:00:00.000Z"
+      },
+      "progressDetailsEnd": {
+        "$date": "2024-06-30T00:00:00.000Z"
+      },
+      "previousProgress": 0,
+      "currentProgress": 0,
+      "totalProgress": 0,
+      "physicalProgressPercentage": 0,
+      "financialProgressPercentage": 0,
+      "_id": {
+        "$oid": "670cc47d2c7d3aeb69b7a273"
+      }
+    }
+  ],
+  "__v": 0
+}]

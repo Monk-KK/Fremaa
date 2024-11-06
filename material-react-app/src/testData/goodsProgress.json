@@ -1,0 +1,175 @@
+[
+  {
+    "zone": "Zone A",
+    "lots": [
+      {
+        "lot": "Lot 1",
+        "progressDetails": [
+          {
+            "item": "Geo-Textile Bags",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 0,
+            "currentProgress": 0,
+            "totalProgress": 0,
+            "physicalProgressPercentage": 0,
+            "financialProgressPercentage": 0
+          },
+          {
+            "item": "Geo-Textile Fabric",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 0,
+            "currentProgress": 0,
+            "totalProgress": 0,
+            "physicalProgressPercentage": 0,
+            "financialProgressPercentage": 0
+          },
+          {
+            "item": "Sewing Threads",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 0,
+            "currentProgress": 0,
+            "totalProgress": 0,
+            "physicalProgressPercentage": 0,
+            "financialProgressPercentage": 0
+          },
+          {
+            "item": "Geo-Textile Bags",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 0,
+            "currentProgress": 31900,
+            "totalProgress": 31900,
+            "physicalProgressPercentage": 4.25,
+            "financialProgressPercentage": 4.04
+          },
+          {
+            "item": "Geo-Textile Fabric",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 0,
+            "currentProgress": 4500,
+            "totalProgress": 4500,
+            "physicalProgressPercentage": 1.47,
+            "financialProgressPercentage": 0.06
+          },
+          {
+            "item": "Sewing Threads",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 0,
+            "currentProgress": 0,
+            "totalProgress": 0,
+            "physicalProgressPercentage": 0,
+            "financialProgressPercentage": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "zone": "Zone B",
+    "lots": [
+      {
+        "lot": "Lot 1",
+        "progressDetails": [
+          {
+            "item": "Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 588300,
+            "currentProgress": 0,
+            "totalProgress": 588300,
+            "physicalProgressPercentage": 22.86,
+            "financialProgressPercentage": 21.71
+          },
+          {
+            "item": "Item No. 2 (Supply of Geo-textile fabric sheet, 300 GSM)",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 36560,
+            "currentProgress": 0,
+            "totalProgress": 36560,
+            "physicalProgressPercentage": 21.13,
+            "financialProgressPercentage": 0.85
+          },
+          {
+            "item": "Item No. 3 (Supply of sewing thread)",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 2274345,
+            "currentProgress": 0,
+            "totalProgress": 2274345,
+            "physicalProgressPercentage": 8.03,
+            "financialProgressPercentage": 0.08
+          }
+        ]
+      },
+      {
+        "lot": "Lot 2",
+        "progressDetails": [
+          {
+            "item": "Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 450300,
+            "currentProgress": 0,
+            "totalProgress": 450300,
+            "physicalProgressPercentage": 24.68,
+            "financialProgressPercentage": 23.44
+          },
+          {
+            "item": "Item No. 2 (Supply of Geo-textile fabric sheet, 300 GSM)",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 18280,
+            "currentProgress": 0,
+            "totalProgress": 18280,
+            "physicalProgressPercentage": 20.52,
+            "financialProgressPercentage": 0.82
+          },
+          {
+            "item": "Item No. 3 (Supply of sewing thread)",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 2275830,
+            "currentProgress": 0,
+            "totalProgress": 2275830,
+            "physicalProgressPercentage": 11.34,
+            "financialProgressPercentage": 0.11
+          }
+        ]
+      },
+      {
+        "lot": "Lot 3",
+        "progressDetails": [
+          {
+            "item": "Item No. 1 (Supply of Geo textile bags of type -A (1.03 x 0.70 m))",
+            "itemType": null,
+            "progressDetailsStart": "2024-06-15T00:00:00.000Z",
+            "progressDetailsEnd": "2024-06-30T00:00:00.000Z",
+            "previousProgress": 31900,
+            "currentProgress": 0,
+            "totalProgress": 31900,
+            "physicalProgressPercentage": 4.25,
+            "financialProgressPercentage": 4.04
+          }
+        ]
+      }
+    ]
+  }
+]
