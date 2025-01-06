@@ -4,8 +4,8 @@ import MDTypography from "components/MDTypography";
 import { Grid, Card, Select, MenuItem, Button, TextField } from "@mui/material";
 
 import DataTable from "examples/Tables/DataTable";
-import AddGoodsProgressForm from "./addsGoodsProgressForm";
-//import GoodsProgressPost from "../addsGoodsProgressForm.js";
+import AddGoodsProgressForm from "./addGoodsProgressForm";
+//import GoodsProgressPost from "../addGoodsProgressForm.js";
 
 const GoodsProgressTableWithForm = () => {
   const [rows, setRows] = useState([]);
@@ -43,7 +43,8 @@ const GoodsProgressTableWithForm = () => {
   };
 
   const handleZoneFilterChange = (event) => {
-    setZoneFilter(event.target.value);
+    const value = event.target.value; // Get the selected value
+    setZoneFilter(value); // Update the zone filter state
   };
 
   const handleLotFilterChange = (event) => {
@@ -95,10 +96,13 @@ const GoodsProgressTableWithForm = () => {
 
   // Apply Filters
   useEffect(() => {
-    let filtered = filteredGoodsProgress;
+    let filtered = [...filteredGoodsProgress]; // Use a copy to avoid direct mutation
 
     if (zoneFilter) {
-      filtered = filtered.filter((row) => row.zone === zoneFilter);
+      filtered = filtered.filter((row) => {
+        console.log("Filtering Zone:", row.zone, "with Filter:", zoneFilter);
+        return row.zone === zoneFilter;
+      });
     }
 
     if (lotFilter) {
@@ -109,6 +113,7 @@ const GoodsProgressTableWithForm = () => {
       filtered = filtered.filter((row) => row.item === itemFilter);
     }
 
+    console.log("Filtered Rows:", filtered); // Debug the final filtered rows
     setRows(filtered);
   }, [zoneFilter, lotFilter, itemFilter, filteredGoodsProgress]);
 
@@ -143,6 +148,7 @@ const GoodsProgressTableWithForm = () => {
             <MenuItem value="Lot 3">Lot 3</MenuItem>
             <MenuItem value="Lot 5">Lot 5</MenuItem>
             <MenuItem value="Lot 5">Lot 5</MenuItem>
+            <MenuItem value="Lot 6">Lot 6</MenuItem>
           </Select>
         </MDBox>
       ),

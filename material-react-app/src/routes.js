@@ -29,15 +29,15 @@ const routes = [
     route: "/goodsprogress",
     component: <GoodsProgress />,
   },
-  /*   {
+  /* {
     type: "collapse",
     name: "Civil Works",
     key: "civilworks",
     icon: <Icon fontSize="small">dashboard</Icon>,
     route: "/civilworks",
     component: <Civilworks />,
-  },
-  {
+  }, */
+  /* {
     type: "collapse",
     name: "Zones",
     key: "zones",
@@ -79,14 +79,14 @@ const routes = [
       },
     ],
   }, */
-  {
+  /* {
     type: "collapse",
     name: "Tables",
     key: "tables",
     icon: <Icon fontSize="small">table_view</Icon>,
     route: "/tables",
     component: <Tables />,
-  },
+  }, */
   /* {
     type: "collapse",
     name: "RTL",
@@ -95,7 +95,7 @@ const routes = [
     route: "/rtl",
     component: <RTL />,
   }, */
-  {
+  /* {
     type: "collapse",
     name: "Notifications",
     key: "notifications",
@@ -110,7 +110,7 @@ const routes = [
     icon: <Icon fontSize="small">person</Icon>,
     route: "/profile",
     component: <Profile />,
-  },
+  }, */
   /* {
     type: "collapse",
     name: "Sign In",

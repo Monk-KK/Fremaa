@@ -42,11 +42,16 @@ lotSchema.virtual("previousProgress").get(function () {
   return 0; // Default if no progress details
 });
 
-// Define the main schema for goods progress
+// Define the schema for zones
+const zoneSchema = new mongoose.Schema({
+  zone: { type: String, required: true },
+  lots: [lotSchema], // Embed lots within each zone
+});
+
+// Define the main schema for goods progress with zones array
 const goodsProgressSchema = new mongoose.Schema(
   {
-    zone: { type: String, required: true },
-    lots: [lotSchema], // Embed lots within the zone
+    zones: [zoneSchema], // Embed zones as an array
   },
   {
     collection: "GoodsProgress", // Explicitly set the collection name

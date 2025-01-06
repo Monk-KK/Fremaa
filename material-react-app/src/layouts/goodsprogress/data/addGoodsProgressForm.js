@@ -31,19 +31,19 @@ function AddGoodsProgressForm() {
     zone: "",
     lot: "",
     item: "",
-    quantity: "",
+    quantity: 0,
     unit: "",
-    unitPrice: "",
-    contractValue: "",
+    unitPrice: 0,
+    contractValue: 0,
     progressDetailsStart: "",
     progressDetailsEnd: "",
-    previousProgress: "",
-    currentProgress: "",
-    totalProgress: "",
-    physicalProgressPercentage: "",
-    financialProgressPercentage: "",
-    financialUtilization: "",
-    overallPercentageCompleted: "",
+    previousProgress: 0,
+    currentProgress: 0,
+    totalProgress: 0,
+    physicalProgressPercentage: 0,
+    financialProgressPercentage: 0,
+    financialUtilization: 0,
+    overallPercentageCompleted: 0,
     remarks: "",
   });
 
@@ -125,9 +125,30 @@ function AddGoodsProgressForm() {
       setError("Previous progress is required.");
       return;
     }
+    if (
+      !newGoodsProgress.zone ||
+      !newGoodsProgress.lot ||
+      !newGoodsProgress.item ||
+      !newGoodsProgress.progressDetailsStart ||
+      !newGoodsProgress.progressDetailsEnd
+    ) {
+      alert("Please fill out all required fields.");
+      return;
+    }
 
-    const { quantity, unitPrice, contractValue, currentProgress } =
-      newGoodsProgress;
+    const {
+      zone,
+      lot,
+      item,
+      itemType,
+      progressDetailsStart,
+      progressDetailsEnd,
+      quantity,
+      unitPrice,
+      contractValue,
+      previousProgress,
+      currentProgress,
+    } = newGoodsProgress;
 
     // Validation for quantity and unit price
     if (quantity <= 0 || unitPrice < 0) {
@@ -137,15 +158,22 @@ function AddGoodsProgressForm() {
       return;
     }
 
+    if (new Date(progressDetailsEnd) <= new Date(progressDetailsStart)) {
+      setError("Progress end date must be after the start date.");
+      return;
+    }
+
     // Ensure numeric conversion
-    const previousProgress = parseFloat(newGoodsProgress.previousProgress) || 0;
-    const currentProgressValue = parseFloat(currentProgress) || 0;
-    const quantityValue = parseFloat(quantity) || 0;
+
+    const previousProgressValue = parseInt(previousProgress) || 0;
+    const currentProgressValue = parseInt(currentProgress) || 0;
+    const quantityValue = parseInt(quantity) || 0;
     const unitPriceValue = parseFloat(unitPrice) || 0;
     const contractValueFloat = parseFloat(contractValue) || 0;
 
     // Calculate totalProgress and progress percentages
-    const totalProgress = previousProgress + currentProgressValue;
+    const totalProgress =
+      parseInt(previousProgressValue) + parseInt(currentProgressValue);
     const physicalProgressPercentage = (totalProgress / quantityValue) * 100;
     const financialProgressPercentage =
       contractValueFloat > 0
@@ -160,21 +188,32 @@ function AddGoodsProgressForm() {
     // Prepare progress details array with the updated calculations
     // Prepare the payload with calculated fields
     const payload = {
-      ...newGoodsProgress,
-      progressDetails: [
+      zones: [
         {
-          progressDetailsStart: newGoodsProgress.progressDetailsStart,
-          progressDetailsEnd: newGoodsProgress.progressDetailsEnd,
-          previousProgress,
-          currentProgress: currentProgressValue,
-          totalProgress,
-          physicalProgressPercentage: physicalProgressPercentage.toFixed(2),
-          financialProgressPercentage: financialProgressPercentage.toFixed(2),
+          zone,
+          lots: [
+            {
+              lot,
+              progressDetails: [
+                {
+                  item,
+                  itemType: itemType || null,
+                  progressDetailsStart,
+                  progressDetailsEnd,
+                  previousProgress: previousProgressValue,
+                  currentProgress: currentProgressValue,
+                  totalProgress,
+                  physicalProgressPercentage:
+                    physicalProgressPercentage.toFixed(2),
+                  financialProgressPercentage:
+                    financialProgressPercentage.toFixed(2),
+                },
+              ],
+            },
+          ],
         },
       ],
-      financialUtilization: financialUtilization.toFixed(2),
     };
-
     console.log("Payload to be submitted:", payload); // Debug log
 
     // Make the API request
@@ -199,20 +238,20 @@ function AddGoodsProgressForm() {
           zone: "",
           lot: "",
           item: "",
-          quantity: "",
+          quantity: 0,
           unit: "",
-          unitPrice: "",
-          contractValue: "",
+          unitPrice: 0,
+          contractValue: 0,
           progressDetailsStart: "",
           progressDetailsEnd: "",
           previousProgress: 0,
           currentProgress: 0,
           totalProgress: 0,
-          physicalProgressPercentage: "",
-          financialProgressPercentage: "",
-          financialUtilization: "",
+          physicalProgressPercentage: 0,
+          financialProgressPercentage: 0,
+          financialUtilization: 0,
           remarks: "",
-          overallPercentageCompleted: "",
+          overallPercentageCompleted: 0,
         });
       })
       .catch((error) => setError(error.message));
@@ -270,7 +309,12 @@ function AddGoodsProgressForm() {
                     fullWidth
                     name="zone"
                     value={newGoodsProgress.zone}
-                    onChange={handleInputChange}
+                    onChange={(e) =>
+                      setNewGoodsProgress({
+                        ...newGoodsProgress,
+                        zone: e.target.value,
+                      })
+                    }
                   >
                     <MenuItem value="Zone A">Zone A</MenuItem>
                     <MenuItem value="Zone B">Zone B</MenuItem>
@@ -383,7 +427,7 @@ function AddGoodsProgressForm() {
                     fullWidth
                     label="Previous Progress"
                     name="previousProgress"
-                    value={newGoodsProgress.ppreviousProgress}
+                    value={newGoodsProgress.previousProgress}
                     onChange={handleInputChange}
                     type="number"
                     InputLabelProps={{ shrink: true }}
