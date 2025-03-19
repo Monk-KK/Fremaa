@@ -28,8 +28,10 @@ const GoodsProgressTableWithForm = () => {
         const mapped = mapRows(data);
         setFilteredGoodsProgress(mapped); // Set initial data
         setRows(mapped); // Fill rows initially
+        setLoading(false);
       } catch (err) {
         setError(err.message);
+        setLoading(false);
       } finally {
         setLoading(false);
       }
@@ -143,10 +145,15 @@ const GoodsProgressTableWithForm = () => {
           </MDTypography>
           <Select onChange={handleLotFilterChange} value={lotFilter || ""}>
             <MenuItem value="">All Lots</MenuItem> {/* All Lots option */}
+            <MenuItem value="Lot 1 Diburgarh">Lot 1 Diburgarh</MenuItem>
+            <MenuItem value="Lot 1 Tinsukia">Lot 1 Tinsukia</MenuItem>
+            <MenuItem value="Lot 2 Diburgarh">Lot 2 Diburgarh</MenuItem>
+            <MenuItem value="Lot 2 Tinsukia">Lot 2 Tinsukia</MenuItem>
+            <MenuItem value="Lot 3 Diburgarh">Lot 3 Diburgarh</MenuItem>
+            <MenuItem value="Lot 3 Tinsukia">Lot 3 Tinsukia</MenuItem>
             <MenuItem value="Lot 1">Lot 1</MenuItem>
             <MenuItem value="Lot 2">Lot 2</MenuItem>
             <MenuItem value="Lot 3">Lot 3</MenuItem>
-            <MenuItem value="Lot 5">Lot 5</MenuItem>
             <MenuItem value="Lot 5">Lot 5</MenuItem>
             <MenuItem value="Lot 6">Lot 6</MenuItem>
           </Select>

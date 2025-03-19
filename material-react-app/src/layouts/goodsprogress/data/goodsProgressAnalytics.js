@@ -33,8 +33,9 @@ ChartJS.register(
   Legend
 );
 
-const ProgressAnalytics = ({ startDate, endDate }) => {
+const ProgressAnalytics = ({ startDate, endDate, onDataLoaded }) => {
   const [zoneData, setZoneData] = useState([]);
+  const [analyticsData, setAnalyticsData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -57,6 +58,8 @@ const ProgressAnalytics = ({ startDate, endDate }) => {
           }));
 
         setZoneData(data);
+        setAnalyticsData(data);
+        onDataLoaded(data); // Pass data to parent component
       } catch (error) {
         console.error("Error fetching analytics data:", error);
         setError("Error fetching analytics data");
@@ -66,7 +69,7 @@ const ProgressAnalytics = ({ startDate, endDate }) => {
     };
 
     fetchAnalytics();
-  }, [startDate, endDate]);
+  }, [startDate, endDate, onDataLoaded]);
 
   if (loading) return <CircularProgress />;
   if (error) return <div>{error}</div>;
